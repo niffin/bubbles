@@ -1,12 +1,13 @@
 {
   "name": "bubble-chart",
   "version": "0.1.0",
-  "homepage": "https://github.com/niffin/bubbles",
+  "homepage": "https://niffin.github.io/bubbles/",
   "private": true,
   "dependencies": {
     "d3-axis": "^1.0.8",
     "d3-scale": "^1.0.6",
     "d3-selection": "^1.1.0",
+    "gh-pages": "^1.0.0",
     "radium": "^0.19.1",
     "ramda": "^0.24.1",
     "react": "^15.6.1",
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "eslint": "^4.1.1",
