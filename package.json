@@ -1,0 +1,28 @@
+{
+  "name": "bubble-chart",
+  "version": "0.1.0",
+  "homepage": "https://github.com/niffin/bubbles",
+  "private": true,
+  "dependencies": {
+    "d3-axis": "^1.0.8",
+    "d3-scale": "^1.0.6",
+    "d3-selection": "^1.1.0",
+    "radium": "^0.19.1",
+    "ramda": "^0.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-import-resolver-babel-module": "^3.0.0",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}
